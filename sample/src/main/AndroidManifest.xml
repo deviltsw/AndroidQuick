@@ -15,7 +15,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ui.activity.MainActivity">
+        <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +28,9 @@
         <activity
             android:name=".features.module.network.retrofit.DownloadActivity"
             android:theme="@style/ProgressBarTheme" />
+
         <service android:name=".features.module.network.retrofit.service.DownloadService" />
+
         <activity android:name=".features.function.ui.fragment.FragmentationActivity" />
         <activity android:name=".features.function.ui.bartop.ToolbarActivity" />
         <activity android:name=".features.function.ui.webview.WebViewActivity" />
